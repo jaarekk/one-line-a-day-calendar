@@ -1,0 +1,60 @@
+body {
+  -webkit-print-color-adjust: exact !important;
+}
+
+.page {
+  font-family: Lato;
+  padding: 0.5em 3em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.line {
+  height: 31px;
+  line-height: 31px;
+  text-align: left;
+  border-bottom: 0.5px solid gray;
+}
+
+.header {
+  text-align: right;
+  font-weight: 500;
+  border-bottom: 2px solid gray;
+  line-height: 1.9;
+  /* margin: 0px 0 18px 0; */
+}
+
+.weekend {
+  text-decoration: line-through;
+  font-weight: bold;
+  color: darkred;
+  background-color: lightgray;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 3px 1.5px 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
